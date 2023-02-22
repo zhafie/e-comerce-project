@@ -199,10 +199,11 @@ header .section3 .sub-sec2 .sub{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    
+    width: 500px;
  }
  header .consoltant .side h2{
     color: rgb(255, 0, 153);
+    margin-left: -50px;
  }
  header .consoltant .side p{
 padding-top: 10px;
@@ -212,7 +213,6 @@ header .consoltant  .side button{
     
     width: 180px !important;
 margin-top: 10px;
-
 }
 header h2{
     color: rgb(255, 0, 153);
@@ -220,29 +220,44 @@ header h2{
 }
 
 
-header .persons{
+.team-header{
+    width: auto;
+    margin-left: none;
+}
+.team-header .persons{
     margin-top: 100px;
     display: flex;
     flex-direction: row;
 
     height: 200px;
-    width: 1000px;
+    width: auto;
     justify-content:space-between;
     align-items :center;
-    
+    margin: 100px 50px 50px 50px;
 }
-header .persons .person{
-  margin-left: 100px;
-  width: 800px;
+.team-header .persons .person{
+   
+  width: 400px;
   height: auto;
-  
 
 }
-header .persons .person img{
+.team-header .persons .person h1{
+   
+    width: auto;
+    height: 50px;
+    color: rgb(161, 5, 245);
+  
+  }
+  .team-header .persons .person h1 span{
+  
+    color: black;
+  
+  }
+  .team-header .persons .person img{
 margin-bottom: 20px;
     border-radius: 50%;
 }
-header .persons .person h4{
+.team-header .persons .person h4{
     color: rgb(255, 0, 153);
     padding-bottom: 20px;
     padding-right:5px;
