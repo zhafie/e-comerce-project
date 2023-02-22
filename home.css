@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav css */
+
+nav{
+    display: flex;
+    height: 60px;
+   
+    align-items: center;
+}
+nav h1{
+    padding-left: 20px;
+}
+nav  h1 span{
+    color: blue;
+}
+nav ul {
+    padding-left: 650px;
+    padding-right: 50px;
+    margin: 5px;
+}
+nav ul li{
+  display: inline;
+  padding-left: 20px;
+  
+}
+nav ul li a {
+    color: black;
+   text-decoration: none;
+}
+nav ul li a:hover{
+    border-bottom: 1px solid blue;
+    padding-bottom: 10px;
+    color: blue;
+}
+nav button{
+ 
+    background-color: rgb(255, 0, 153);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 90px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    background-color: rgb(255, 0, 153);
+    color: white;
+    border: none;
+    height: 40px;
+    width: 90px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* header */
+
+header {
+    display: flex;
+    height: 2000px;
+    flex-direction: column;
+}
+header .section1 {
+    display: flex;
+    height: 300px;
+  flex-direction: row;
+}
+header .section1 .sub-sec1{
+ 
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+     height: inherit;
+     padding: 70px 0 0 150px;
+     
+     
+}
+header .section1 .sub-sec1 h1{
+    padding-bottom: 20px;
+     
+}
+header .section1 .sub-sec1 p{
+    padding-bottom: 10px;  
+     
+}
+
+header .section2 {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     height: 400px;
+   
+     
+}
+header .section2 h6{
+    font-weight: lighter;
+    font-size: small;
+    padding-bottom:  20px;;
+}
+header .section2 h3{
+    padding-bottom:  20px;;
+}
+header .section2 .sub-sec2{
+    display: flex;
+    flex-direction: row;
+     height: 250px;
+   
+    width: 800px;
+    
+  
+}
+header .section2 .sub-sec2 .sub{
+    background-color: rgb(231, 231, 231);
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    height: 90%;
+padding: 20px;
+ }
+ header .section2 .sub-sec2 .sub h3{
+    padding-top: 20px;
+ }
+ header .section2 .sub-sec2 .sub .fa{
+  height: 45px;
+  width: 60px;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(255, 0, 153);
+  padding-top: 10px;
+
+ }
+/* section 3 css */
+
+header .section3 {
+    margin-top: 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     height: 300px;
+   background-color: rgb(225, 223, 223);
+     
+}
+header .section3 h6{
+    font-weight: lighter;
+    font-size: small;
+    padding-bottom:  20px;
+}
+header .section3 h3{
+    padding-bottom:  20px;;
+}
+header .section3 .sub-sec2{
+    display: flex;
+    flex-direction: row;
+     height: 250px;
+    
+  
+}
+header .section3 .sub-sec2 .sub{
+    background-color: white;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    height: 100px;
+    padding: 20px;
+    width: 200px;
+ }
+ header .section3 .sub-sec2 .sub h3{
+    padding-top: 20px;
+ }
+ header .section3 .sub-sec2 .sub .fa{
+  height: 45px;
+  width: 60px;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(255, 0, 153);
+  padding-top: 10px;
+
+ }
+
+ header .consoltant {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    padding: 50px;
+ }
+ header .consoltant img{
+    margin-right: 100px;
+ }
+ 
+ header .consoltant .side{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    
+ }
+ header .consoltant .side h2{
+    color: rgb(255, 0, 153);
+ }
+ header .consoltant .side p{
+padding-top: 10px;
+ }
+
+header .consoltant  .side button{
+    
+    width: 180px !important;
+margin-top: 10px;
+
+}
+header h2{
+    color: rgb(255, 0, 153);
+    padding-left: 50px;
+}
+
+
+header .persons{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+
+    height: 200px;
+    width: 1000px;
+    justify-content:space-between;
+    align-items :center;
+    
+}
+header .persons .person{
+  margin-left: 100px;
+  width: 800px;
+  height: auto;
+  
+
+}
+header .persons .person img{
+margin-bottom: 20px;
+    border-radius: 50%;
+}
+header .persons .person h4{
+    color: rgb(255, 0, 153);
+    padding-bottom: 20px;
+    padding-right:5px;
+    width: 200px;
+   
+
+}
+
+/* section */
+
+
+section{
+    height: 150px;
+    padding: 20px;
+      
+}
+section .container{
+    display: flex;
+    flex-direction: row;
+    height: 125px;
+    border: 1px solid #000;
+    background-color:rgb(255, 0, 153);
+    border-radius: 20px;
+     padding: 10px;
+}
+section .container img{
+    border-radius: 50%;
+    margin-right: 300px;
+    margin-top: 10px;
+
+}
+ 
+section .container .side h1{
+    color: white;
+    font-weight: 800;
+    margin-top: 10px;
+}
+section .container .side button{
+    margin-top: 10px;
+    color: blue;
+     border-radius: 5px;
+    font-family:default;
+    background-color: rgb(230, 227, 227);
+}
+
+ /* footer */
+
+footer{
+    padding: 20px;
+    background-color: rgb(231, 231, 231);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: space-between;
+   
+}
+
+footer .container{
+    display: flex;
+    width: auto;
+flex-direction: row;
+padding-left: 50px;
+
+}
+footer .container .qoraal{
+    width: 800px;
+ 
+    
+}
+footer .container .section{
+    padding:10px 0 0 10px;
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+footer .container .section .sub{
+ padding-right: 50px;
+ 
+ width: 150px;
+ display: flex;
+ flex-direction: column;
+ height: 150px;
+    
+
+}
+footer .container .section .sub h4{ 
+   color: blue;
+       padding-bottom:10px ;
+   }
+   footer .container .section .sub ul li{ 
+        padding-bottom:10px ;
+    }
+ li{
+    list-style-type: none;
+ }
+ footer .container .qoraal h2 span{
+    color: blue
+ }
+footer h3{
+    font-weight:400;
+    color: blue;
+    padding-bottom: 10px;
+    padding-top:15px ;
+}
